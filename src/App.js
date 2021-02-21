@@ -1,10 +1,12 @@
-import './App.css'
+import { ThemeProvider } from '@material-ui/styles'
+import Nav from './components/Nav/Index'
+import theme from './theme/theme'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <span>App Works!</span>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Nav />
+    </ThemeProvider>
   )
 }
 
