@@ -54,7 +54,8 @@
     display: none !important;
   }
   .sideRightUserContainer {
-    margin-left: 0;
+    justify-content: space-around;
+    width: 100%;
   }
   .sideRightAvatar {
     margin-left: 0;

@@ -1,0 +1,24 @@
+.cardImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 150px;
+  min-height: 150px;
+}
+.imgTool {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  max-width: 300px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    max-width: 100%;
+  }
+}

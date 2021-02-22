@@ -1,0 +1,9 @@
+.backBtn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.backBtn:active {
+  opacity: 0.5;
+  user-select: none;
+}
